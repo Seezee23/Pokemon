@@ -15,7 +15,7 @@ class Index extends React.Component{
                 <ul>
                     {
                         pokemons.map((pokemon) => {
-                            const {name, color, readyToEat, _id} = pokemon
+                            const {name, color, readyToPlay, _id} = pokemon
                             return (
                                 <li key={_id}>
                                     <a href={`/pokemons/${_id}`}>
@@ -23,7 +23,7 @@ class Index extends React.Component{
                                     
                                      <br/>
                                     {
-                                        readyToEat? 
+                                        readyToPlay? 
                                         'It\'s ready to play':
                                         'It\'s not ready to play'
                                     }
