@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa%7CRighteous');
 
 body {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1200px-International_Pokémon_logo.svg.png);
+  background: url(https://wallpapermoon.com/wp-content/uploads/2021/07/00160195.jpg);
   margin: 0;
   font-family: 'Comfortaa', cursive;
 }
 
 h1 {
   font-family: 'Righteous', cursive;
-  background: antiquewhite;
   margin:0;
   margin-bottom: .5em;
   padding: 1em;
@@ -20,7 +19,7 @@ a {
   text-decoration: none;
   text-shadow: 1px 1px 1px black;
   font-size: 1.5em;
-  background: rgba(236, 242, 183, 0.8));
+  background: rgba(236, 242, 183, 0.8);
 }
 
 a:hover {
@@ -29,10 +28,13 @@ a:hover {
 
 li {
   list-style: none;
+  text-align: center;
 }
 
 li a {
-  color: darkblue;
+  color: palevioletred;
+  margin: auto;
+
 }
 
 input[type=text] {
